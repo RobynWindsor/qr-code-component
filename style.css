@@ -1,3 +1,60 @@
+## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+
+
+
+
+body {
+  background-color: orange;
+}
+
+.container {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .qr-container {
-  background-color: grey;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: unset;
+  padding-top: 26px;
+}
+img {
+  border-radius: 10px;
+}
+
+.text-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.header-text {
+  font-weight: bold;
+  margin: 20px;
 }
